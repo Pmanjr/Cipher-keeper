@@ -1,0 +1,39 @@
+{
+  "name": "Cipher-keeper",
+  "version": "1.0.0",
+  "description": "Cipher-keeper Server is the backend responsible for the online service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&& node index.js",
+    "start-prod": "set NODE_ENV=production&& node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tflux2011/Cipher-keeper-server.git"
+  },
+  "keywords": [
+    "Cipher-keeper",
+    "password",
+    "manager"
+  ],
+  "author": "John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tflux2011/Cipher-keeper-server/issues"
+  },
+  "homepage": "https://github.com/tflux2011/Cipher-keeper-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.11.2",
+    "nodemailer": "^6.8.0"
+  }
+}

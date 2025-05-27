@@ -1,0 +1,5 @@
+{
+    "name": "cipher-keeper",
+    "db":"mongodb://localhost/cipher-keeper_db",
+    "jwtPrivateKey": "productMod"
+}

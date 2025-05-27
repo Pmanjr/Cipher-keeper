@@ -1,0 +1,5 @@
+{
+    "name": "Cipher-keeper",
+    "jwtPrivateKey": "Cipher-keeper_jwtPrivateKey",
+    "db":"Cipher-keeper_db"
+}
